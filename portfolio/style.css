@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #1f2933;
+    color: white;
+  }
+  
+  .header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Intro */
+  .intro {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f5f7fa;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .role {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 80px;
+  }
+  
+  .section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .section.light {
+    background: #f0f4f8;
+  }
+  
+  /* Skills */
+  .skills span {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 8px;
+    font-size: 14px;
+  }
+  
+  /* Projects */
+  .projects {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 40px;
+    background: #1f2933;
+    color: white;
+  }
+  
